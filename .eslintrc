@@ -1,9 +1,24 @@
 {
-    "parser": "babel-eslint",
-    "env": {
-         "es6": true,
-         "browser": true,
-         "node": true
-    },
-    "rules": {},
-    "extends": ["eslint:recommended", "google"]
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "quotes": [2, "single", "avoid-escape"],
+    "array-bracket-spacing": [2, "always"],
+    "object-curly-spacing": [2, "always"],
+    "indent": ["error", 2, {
+      "SwitchCase": 1,
+      "VariableDeclarator": "first",
+      "MemberExpression": 1,
+      "CallExpression": {"arguments": 1},
+      "ObjectExpression": 1
+    }]
+  },
+  "extends": [
+    "eslint:recommended"
+  ]
+}

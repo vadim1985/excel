@@ -1,0 +1,85 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"992750f3-e02e-43df-92de-dc79fd780b23\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/excel.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/jsLinters/eslint.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/__js_config.json\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/excel/Excel.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/formula/Formula.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/header/Header.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/table/Table.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/table/table.template.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/toolbar/Toolbar.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/core/DOMListener.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/core/ExcelComponent.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/core/dom.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/core/util.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.eslintrc\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.eslintrc\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/module.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/module.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/webpack.config.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/webpack.config.js\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1h5TjQOUy8vxGIc87s5Uff8fMNF\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"js.linters.configure.manually.selectedeslint\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.standard\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.standard\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"$PROJECT_DIR$/node_modules/eslint\" />\n    <property name=\"node.js.selected.package.standard\" value=\"\" />\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.javascript.linters.eslint\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"992750f3-e02e-43df-92de-dc79fd780b23\" name=\"Default Changelist\" comment=\"\" />\n      <created>1599300088148</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1599300088148</updated>\n      <workItem from=\"1599300089241\" duration=\"98000\" />\n      <workItem from=\"1599300258580\" duration=\"409000\" />\n      <workItem from=\"1599300776312\" duration=\"8124000\" />\n      <workItem from=\"1599401844196\" duration=\"8720000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"360\" y=\"198\" width=\"640\" height=\"518\" key=\"#ESLint\" timestamp=\"1599379423316\">\n      <screen x=\"0\" y=\"23\" width=\"1440\" height=\"877\" />\n    </state>\n    <state x=\"360\" y=\"198\" width=\"640\" height=\"518\" key=\"#ESLint/0.23.1440.877@0.23.1440.877\" timestamp=\"1599379423316\" />\n    <state x=\"221\" y=\"100\" key=\"SettingsEditor\" timestamp=\"1599370814104\">\n      <screen x=\"0\" y=\"23\" width=\"1440\" height=\"877\" />\n    </state>\n    <state x=\"221\" y=\"100\" key=\"SettingsEditor/0.23.1440.877@0.23.1440.877\" timestamp=\"1599370814104\" />\n    <state x=\"421\" y=\"94\" width=\"598\" height=\"735\" key=\"find.popup\" timestamp=\"1599576718739\">\n      <screen x=\"0\" y=\"23\" width=\"1440\" height=\"877\" />\n    </state>\n    <state x=\"421\" y=\"94\" width=\"598\" height=\"735\" key=\"find.popup/0.23.1440.877@0.23.1440.877\" timestamp=\"1599576718739\" />\n    <state x=\"405\" y=\"198\" key=\"jetbrains.nodejs.interpreters-dialog\" timestamp=\"1599301883547\">\n      <screen x=\"0\" y=\"23\" width=\"1440\" height=\"877\" />\n    </state>\n    <state x=\"405\" y=\"198\" key=\"jetbrains.nodejs.interpreters-dialog/0.23.1440.877@0.23.1440.877\" timestamp=\"1599301883547\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\n          <url>file://$PROJECT_DIR$/src/core/ExcelComponent.js</url>\n          <properties lambdaOrdinal=\"-1\" />\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision d95fbcd7ba0d1c7bd3d6bebc9c16334f85314197)
++++ .idea/workspace.xml	(date 1599748096644)
+@@ -1,31 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="992750f3-e02e-43df-92de-dc79fd780b23" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/excel.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/__js_config.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/core/DOMListener.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/core/util.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/module.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+-    </list>
++    <list default="true" id="992750f3-e02e-43df-92de-dc79fd780b23" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -73,12 +67,23 @@
+       <workItem from="1599300089241" duration="98000" />
+       <workItem from="1599300258580" duration="409000" />
+       <workItem from="1599300776312" duration="8124000" />
+-      <workItem from="1599401844196" duration="8720000" />
++      <workItem from="1599401844196" duration="8994000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="360" y="198" width="640" height="518" key="#ESLint" timestamp="1599379423316">

@@ -23,10 +23,13 @@ export class Table extends ExcelComponent {
         // const $parent = $resizer.$el.closest('.column');// bad
         const $parent = $resizer.closest('[data-type="resizable"]');
         const coords = ($parent.getCoords());
+        const $cells = this.$root.findAll(`[data-key=${$parent.data.innerText}]`);
 
         document.onmousemove = e => {
           const delta = e.pageX - coords.right;
-          $parent.$el.style.width = `${coords.width + delta}px`;
+          const width = `${coords.width + delta}px`;
+          $parent.data.style.width = width;
+          $cells.forEach($cellElement => $cellElement.style.width = width);
         };
 
         document.onmouseup = () => {
@@ -40,7 +43,7 @@ export class Table extends ExcelComponent {
 
         document.onmousemove = e => {
           const delta = e.pageY - coords.bottom;
-          $parent.$el.style.height = `${coords.height + delta}px`;
+          $parent.data.style.height = `${coords.height + delta}px`;
         };
 
         document.onmouseup = () => {

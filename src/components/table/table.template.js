@@ -3,9 +3,9 @@ const CODES = {
   Z: 90
 };
 
-const toCell = () => {
+const toCell = (el) => {
   return `
-    <div class="cell" contenteditable></div>
+    <div class="cell" contenteditable data-key="${el}"></div>
   `;
 };
 
@@ -43,7 +43,7 @@ export const createTable = (rowCount = 15) => {
     .map(toChar)
     .map(toColumn)
     .join('');
-  const cells = new Array(colsCount).fill('').map(toCell).join('');
+  const cells = new Array(colsCount).fill('').map(toChar).map(toCell).join('');
 
   rows.push(createRow(cols));
   for (let i = 0; i < rowCount; i++) {

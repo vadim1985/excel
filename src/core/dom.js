@@ -13,6 +13,14 @@ class Dom {
     return this.$el.outerHTML.trim();
   }
 
+  get data() {
+    return this.$el;
+  }
+
+  findAll(selector) {
+    return this.$el.querySelectorAll(selector);
+  }
+
   on(event, callback) {
     this.$el.addEventListener(event, callback);
   }

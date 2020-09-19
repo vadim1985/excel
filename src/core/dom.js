@@ -13,6 +13,20 @@ class Dom {
     return this.$el.outerHTML.trim();
   }
 
+  get data() {
+    return this.$el;
+  }
+
+  findAll(selector) {
+    return this.$el.querySelectorAll(selector);
+  }
+
+  css(style={}) {
+    for (const key in style) {
+      this.$el.style[key] = style[key];
+    }
+  }
+
   on(event, callback) {
     this.$el.addEventListener(event, callback);
   }
@@ -36,6 +50,14 @@ class Dom {
       this.$el.appendChild(node);
     }
     return this;
+  }
+
+  closest(selector) {
+    return $(this.$el.closest(selector));
+  }
+
+  getCoords() {
+    return this.$el.getBoundingClientRect();
   }
 }
 

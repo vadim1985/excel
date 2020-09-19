@@ -21,6 +21,12 @@ class Dom {
     return this.$el.querySelectorAll(selector);
   }
 
+  css(style={}) {
+    for (const key in style) {
+      this.$el.style[key] = style[key];
+    }
+  }
+
   on(event, callback) {
     this.$el.addEventListener(event, callback);
   }

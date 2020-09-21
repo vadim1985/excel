@@ -6,11 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="992750f3-e02e-43df-92de-dc79fd780b23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/table/table.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/TableSelection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/table.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/table.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ExcelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/table.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
       <workItem from="1599300258580" duration="409000" />
       <workItem from="1599300776312" duration="8124000" />
       <workItem from="1599401844196" duration="8720000" />
-      <workItem from="1599749172214" duration="15817000" />
+      <workItem from="1599749172214" duration="24543000" />
     </task>
     <servers />
   </component>
@@ -84,27 +86,21 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="198" width="640" height="518" key="#ESLint/0.23.1440.877@0.23.1440.877" timestamp="1599379423316" />
+    <state x="297" y="37" key="CommitChangelistDialog2" timestamp="1600513845992">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="297" y="37" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600513845992" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1599749237991">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599749237991" />
-    <state x="421" y="94" width="598" height="735" key="find.popup" timestamp="1599992066807">
+    <state x="421" y="94" width="598" height="735" key="find.popup" timestamp="1600613208823">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="421" y="94" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1599992066807" />
+    <state x="421" y="94" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1600613208823" />
     <state x="405" y="198" key="jetbrains.nodejs.interpreters-dialog" timestamp="1599301883547">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="405" y="198" key="jetbrains.nodejs.interpreters-dialog/0.23.1440.877@0.23.1440.877" timestamp="1599301883547" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/core/ExcelComponent.js</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

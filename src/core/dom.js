@@ -14,11 +14,34 @@ class Dom {
   }
 
   get data() {
-    return this.$el;
+    return this.$el.dataset;
+  }
+
+  id(parse) {
+    if (parse) {
+      const cellCoords = this.id().split(':');
+      return {
+        row: +cellCoords[0],
+        col: +cellCoords[1]
+      };
+    }
+    return this.data.id;
   }
 
   findAll(selector) {
     return this.$el.querySelectorAll(selector);
+  }
+
+  find(selector) {
+    return $(this.$el.querySelector(selector));
+  }
+
+  addClass(className) {
+    this.$el.classList.add(className);
+  }
+
+  removeClass(className) {
+    this.$el.classList.remove(className);
   }
 
   css(style={}) {

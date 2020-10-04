@@ -6,7 +6,7 @@ export const resizeHandler = ($root, e) => {
   // const $parent = $resizer.$el.closest('.column');// bad
   const $parent = $resizer.closest('[data-type="resizable"]');
   const coords = $parent.getCoords();
-  const type = $resizer.data.dataset.resize;
+  const type = $resizer.data.resize;
   let finalCoords;
   $resizer.css({ opacity: 1 });
   if (type === 'col') {
@@ -30,7 +30,7 @@ export const resizeHandler = ($root, e) => {
     document.onmouseup = null;
     if (type === 'col') {
       $parent.css({ width: finalCoords });
-      const $cells = $root.findAll(`[data-key=${$parent.data.innerText}]`);
+      const $cells = $root.findAll(`[data-cell="${$parent.data.index}"]`);
       $cells.forEach($cellElement => $cellElement.style.width = finalCoords);
     } else {
       $parent.css({ height: finalCoords });

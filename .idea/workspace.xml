@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="992750f3-e02e-43df-92de-dc79fd780b23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/table/TableSelection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Emitter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_09_2020,_21_30_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_09_2020__21_30__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/excel/Excel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/excel/Excel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/formula/Formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/formula/Formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/table.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table/table.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/table.template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/table/TableSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table/TableSelection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toolbar/Toolbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/ExcelComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ExcelComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/dom.js" afterDir="false" />
     </list>
@@ -50,6 +58,16 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Emitter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/core/Emitter.js" working-dir="$PROJECT_DIR$/src/core">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Emitter.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +80,9 @@
       <workItem from="1599300258580" duration="409000" />
       <workItem from="1599300776312" duration="8124000" />
       <workItem from="1599401844196" duration="8720000" />
-      <workItem from="1599749172214" duration="24543000" />
+      <workItem from="1599749172214" duration="24606000" />
+      <workItem from="1600871046194" duration="10686000" />
+      <workItem from="1601289740824" duration="2969000" />
     </task>
     <servers />
   </component>
@@ -90,17 +110,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="297" y="37" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600513845992" />
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom" timestamp="1601201650746">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601201650746" />
+    <state width="1419" height="231" key="GridCell.Tab.0.center" timestamp="1601201650745">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601201650745" />
+    <state width="1419" height="231" key="GridCell.Tab.0.left" timestamp="1601201650745">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601201650745" />
+    <state width="1419" height="231" key="GridCell.Tab.0.right" timestamp="1601201650746">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1419" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601201650746" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1599749237991">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599749237991" />
-    <state x="421" y="94" width="598" height="735" key="find.popup" timestamp="1600613208823">
+    <state x="421" y="94" width="598" height="735" key="find.popup" timestamp="1601217447098">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="421" y="94" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1600613208823" />
+    <state x="421" y="94" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1601217447098" />
     <state x="405" y="198" key="jetbrains.nodejs.interpreters-dialog" timestamp="1599301883547">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="405" y="198" key="jetbrains.nodejs.interpreters-dialog/0.23.1440.877@0.23.1440.877" timestamp="1599301883547" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600873500049">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600873500049" />
   </component>
 </project>

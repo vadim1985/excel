@@ -6,10 +6,11 @@ import { $ } from '@core/dom';
 
 export class Table extends ExcelComponent {
   static className = 'excel__table';
-  constructor($root) {
+  constructor($root, options) {
     super($root, {
       name: 'Table',
-      listeners:[ 'mousedown' ]
+      listeners:[ 'mousedown', 'keydown', 'input' ],
+      ...options
     });
   }
   toHTML() {
@@ -22,8 +23,18 @@ export class Table extends ExcelComponent {
   init() {
     super.init();
     const $cell = this.$root.find('[data-id="0:0"]');
-    this.selection.select($cell);
-    console.log('init');
+    this.selectCell($cell);
+    this.$on('formula:input', text => {
+      this.selection.current.text(text);
+    });
+    this.$on('formula:enterDown', () => {
+      this.selection.current.focus();
+    });
+  }
+
+  selectCell($elem) {
+    this.selection.select($elem);
+    this.$emit('table:select', $elem);
   }
 
   onMousedown(e) {
@@ -45,14 +56,40 @@ export class Table extends ExcelComponent {
     }
   }
 
-  onClick(e){
-    console.log(e);
+  onKeydown(e){
+    const keys = [ 'Enter', 'Tab', 'ArrowDown', 'ArrowUp', 'ArrowLeft', 'ArrowRight' ];
+    if(keys.includes(e.key) && !e.shiftKey) {
+      e.preventDefault();
+      const { key } = e;
+      const id = this.selection.current.id(true);
+      const $next = this.$root.find(nextSelector(key, id));
+      this.selectCell($next);
+    }
   }
 
-  onMousemove(e){
-    console.log(e);
+  onInput(e) {
+    this.$emit('table:input', $(e.target));
   }
+
 }
+
+const nextSelector = (key, { col, row }) => {
+  const calculation = (action, num) => {
+    const MIN_VALUE = 0;
+    if(action === '-') return num - 1 < MIN_VALUE ? MIN_VALUE : --num;
+    return ++num;
+  };
+
+  return {
+    'Enter': () => `[data-id="${calculation('+', row)}:${col}"]`,
+    'Tab': () => `[data-id="${row}:${calculation('+', col)}"]`,
+    'ArrowDown': () => `[data-id="${calculation('+', row)}:${col}"]`,
+    'ArrowUp': () => `[data-id="${calculation('-', row)}:${col}"]`,
+    'ArrowLeft': () => `[data-id="${row}:${calculation('-', col)}"]`,
+    'ArrowRight': () => `[data-id="${row}:${calculation('+', col)}"]`
+  }[key]();
+};
+
 const matrix = (current, target) => {
   const cols = range(current.col, target.col);
   console.log(cols);
